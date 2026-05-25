@@ -9,7 +9,7 @@ export function QualitySection() {
             <p className="label">Quality & Standards</p>
             <div className="gold-line"></div>
             <h2 className="section-title">Zero-Defect.<br />Zero Compromise.</h2>
-            <p style={{ fontSize: '1rem', lineHeight: '1.8', color: '#555', marginTop: '20px', marginBottom: '8px' }}>
+            <p className="quality-desc">
               Every component leaving our facility passes a rigorous multi-stage quality control protocol. In high-pressure spinning lines, even a minor discrepancy causes catastrophic leakage — so we don't accept minor discrepancies.
             </p>
             <ul className="quality-list">

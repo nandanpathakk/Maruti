@@ -29,7 +29,7 @@ export function ContactSection() {
           <p className="label">Get In Touch</p>
           <div className="gold-line" style={{ margin: '16px auto 0' }}></div>
           <h2 className="section-title" style={{ marginTop: '0' }}>Request a Quote or<br />Ask a Technical Question</h2>
-          <p style={{ fontSize: '0.95rem', color: '#666', marginTop: '16px', maxWidth: '520px', marginLeft: 'auto', marginRight: 'auto', lineHeight: '1.7' }}>
+          <p className="contact-desc">
             Whether you need a standard replacement or a fully custom filtration solution, our team is ready to discuss your plant's requirements.
           </p>
         </div>

@@ -38,14 +38,17 @@ export function Navbar() {
             <a href="#contact">Contact</a>
           </div>
           <a href="/Maruti_Catalogue.pdf" download className="nav-cta">Download Catalogue</a>
-          <button className="nav-hamburger" onClick={() => setMobileMenuOpen(true)} aria-label="Menu">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          <button className="nav-hamburger" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} aria-label="Toggle Menu" style={{ zIndex: 101 }}>
+            {mobileMenuOpen ? (
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            ) : (
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            )}
           </button>
         </div>
       </nav>
 
       <div className={`mobile-nav ${mobileMenuOpen ? "open" : ""}`} id="mobileNav">
-        <button className="mobile-nav-close" onClick={() => setMobileMenuOpen(false)} aria-label="Close">✕</button>
         <a href="#home" onClick={() => setMobileMenuOpen(false)}>Home</a>
         <a href="#about" onClick={() => setMobileMenuOpen(false)}>About</a>
         <a href="#products" onClick={() => setMobileMenuOpen(false)}>Products</a>
