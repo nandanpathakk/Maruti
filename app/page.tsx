@@ -7,6 +7,7 @@ import { AboutSection } from "@/components/sections/AboutSection";
 import { GoalsStrip } from "@/components/sections/GoalsStrip";
 import { ProductsSection } from "@/components/sections/ProductsSection";
 import { QualitySection } from "@/components/sections/QualitySection";
+import { FaqSection } from "@/components/sections/FaqSection";
 import { ContactSection } from "@/components/sections/ContactSection";
 
 export default function Home() {
@@ -47,6 +48,7 @@ export default function Home() {
       <GoalsStrip />
       <ProductsSection />
       <QualitySection />
+      <FaqSection />
       <ContactSection />
     </>
   );

@@ -16,7 +16,7 @@ export function AboutSection() {
             <div className="gold-line"></div>
             <h2 className="section-title">Engineer-Led.<br />Precision Built.<br />Trusted in India.</h2>
             <p className="about-body" style={{ marginTop: '16px' }}>
-              At <strong>Maruti Filters & Gaskets</strong>, we bridge the gap between mass production and <strong>high-precision custom fabrication</strong>. Founded by a mechanical engineer, we build every candle filter, spin pack, and gasket to your exact plant blueprint to meet the rigid demands of high-speed spinning lines.
+              At <strong>Maruti Filters & Gaskets</strong>, we bridge the gap between mass production and <strong>high-precision custom fabrication</strong>. As a leading <strong>CPF candle filter manufacturer</strong>, we build every <strong>wire mesh cartridge</strong>, <strong>pleated wire mesh filter sleeve</strong>, spin pack assembly, and gasket to your exact plant blueprint to meet the rigid demands of high-speed spinning and extrusion lines.
             </p>
             <div className="usps-grid">
               <div className="usp-card">

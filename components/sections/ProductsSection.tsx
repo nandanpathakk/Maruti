@@ -25,11 +25,11 @@ export function ProductsSection() {
             <div className="product-overlay">
               <div className="product-overlay-inner">
                 <div className="tag">Flagship Product</div>
-                <p>Multi-layered pleated wire mesh design maximises active filtration surface area. TIG-welded seam prevents polymer bypass. Hex nut end fitting for secure, zero-leakage integration.</p>
+                <p>Our premier wire mesh cartridges utilize a multi-layered pleated wire mesh design to maximize active filtration surface area. TIG-welded seam prevents polymer bypass. Hex nut end fitting for secure, zero-leakage integration.</p>
               </div>
             </div>
             <div className="product-info">
-              <div className="product-name">Pleated Polymer Candle Filter (CP Lines)</div>
+              <div className="product-name">Pleated Polymer Candle Filter (Wire Mesh Cartridge)</div>
               <div className="product-spec">Material: SS 304 &middot; Application: CP, POY, PSF, FDY, DTY &middot; Custom Micron Ratings</div>
             </div>
           </div>
@@ -42,11 +42,11 @@ export function ProductsSection() {
             <div className="product-overlay">
               <div className="product-overlay-inner">
                 <div className="tag">Candle Sleeve</div>
-                <p>Replaceable pleated filter sleeves that slide over adapter rods. Easy to clean, wash, and reuse — reducing operational consumable costs significantly.</p>
+                <p>Replaceable pleated wire mesh filter sleeve designed to slide over adapter rods. Easy to clean, wash, and reuse — reducing operational consumable costs significantly.</p>
               </div>
             </div>
             <div className="product-info">
-              <div className="product-name">Pleated Wire Mesh Filter Sleeves</div>
+              <div className="product-name">Pleated Wire Mesh Filter Sleeve</div>
               <div className="product-spec">Material: SS 304 &middot; Application: Extrusion, Film Blowing, Masterbatch</div>
             </div>
           </div>
@@ -59,11 +59,11 @@ export function ProductsSection() {
             <div className="product-overlay">
               <div className="product-overlay-inner">
                 <div className="tag">Structural Core</div>
-                <p>Precision-machined staggered perforation pattern for maximum fluid throughput. Heavy-duty threaded end caps for torque-resistant installation under extreme ΔP.</p>
+                <p>Precision-machined filter adapter rod for polymer extrusion systems. Features a staggered perforation pattern for maximum fluid throughput and threaded end caps for torque-resistant installation.</p>
               </div>
             </div>
             <div className="product-info">
-              <div className="product-name">Perforated Support Cores / Adapter Rods</div>
+              <div className="product-name">Filter Adapter Rod (Polymer Extrusion)</div>
               <div className="product-spec">Material: SS 304 / SS 316L &middot; Application: Melt Filtration Blocks, Extrusion</div>
             </div>
           </div>
@@ -76,7 +76,7 @@ export function ProductsSection() {
             <div className="product-overlay">
               <div className="product-overlay-inner">
                 <div className="tag">High Precision</div>
-                <p>Industrial-grade SS 304 candle filters providing structural integrity and durability required to maintain precise micron ratings under high-pressure extrusion conditions.</p>
+                <p>As a leading ss candle filter supplier in Gujarat, we manufacture industrial-grade SS 304 polymer candle filters providing structural integrity required to maintain precise micron ratings.</p>
               </div>
             </div>
             <div className="product-info">
@@ -93,7 +93,7 @@ export function ProductsSection() {
             <div className="product-overlay">
               <div className="product-overlay-inner">
                 <div className="tag">Spin Pack Range</div>
-                <p>High-precision spin pack filters for POY, PSF, FDY, and DTY lines. Multi-layer wire mesh configuration. Spot-welded or aluminium-rimmed edges. Ensures uniform polymer distribution right before the spinneret.</p>
+                <p>As premier spin pack filter wire mesh manufacturers, we design high-precision spin pack filters for POY, PSF, FDY, and DTY lines. Features spot-welded or aluminium-rimmed edges for uniform melt distribution.</p>
               </div>
             </div>
             <div className="product-info">
@@ -126,12 +126,12 @@ export function ProductsSection() {
             </div>
             <div className="product-overlay">
               <div className="product-overlay-inner">
-                <div className="tag">Raw Mesh</div>
-                <p>High-grade SS 304 loose wire mesh in circular, oval, and sheet forms. Supplied to specification for integration into custom filter assemblies or for direct use in spinning blocks.</p>
+                <div className="tag">Extruder Screens</div>
+                <p>Maruti is a trusted stainless steel wire mesh extruder screen manufacturer. We supply high-grade SS 304 loose wire mesh in circular, oval, and sheet forms, custom-cut for direct use in extrusion blocks.</p>
               </div>
             </div>
             <div className="product-info">
-              <div className="product-name">Loose Wire Mesh (Sheets & Discs)</div>
+              <div className="product-name">SS Wire Mesh Extruder Screens</div>
               <div className="product-spec">Material: SS 304 &middot; Custom Cut &middot; Multiple Weave Patterns & Microns</div>
             </div>
           </div>

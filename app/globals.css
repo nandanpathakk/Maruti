@@ -147,24 +147,18 @@ nav.scrolled {
 
 .nav-logo {
   display: flex;
-  flex-direction: column;
-  line-height: 1;
+  align-items: center;
 }
 
-.nav-logo .brand {
-  font-family: var(--font-label);
-  font-size: 22px;
-  font-weight: 700;
-  letter-spacing: 3px;
+.nav-logo-img {
+  display: block;
+  height: 36px;
+  width: auto;
+  transition: transform 0.3s ease;
 }
 
-.nav-logo .sub {
-  font-family: var(--font-body);
-  font-size: 10px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: var(--steel);
-  margin-top: 3px;
+.nav-logo:hover .nav-logo-img {
+  transform: scale(1.05);
 }
 
 .nav-links {
@@ -1483,4 +1477,93 @@ footer {
   border: none;
   font-size: 32px;
   cursor: pointer;
+}
+
+/* ── FAQ SECTION ── */
+#faq {
+  padding: var(--section-gap) 0;
+  background: var(--cream);
+}
+
+.faq-grid {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faq-disclosure {
+  background: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.faq-disclosure[open] {
+  border-color: var(--accent);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.faq-summary {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-label);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--ink);
+  cursor: pointer;
+  list-style: none; /* Hide default arrow */
+}
+
+.faq-summary::-webkit-details-marker {
+  display: none; /* Hide default arrow in Safari */
+}
+
+.faq-summary-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.faq-summary-icon::before,
+.faq-summary-icon::after {
+  content: '';
+  position: absolute;
+  background: var(--accent);
+  transition: transform 0.3s;
+}
+
+/* Horizontal line */
+.faq-summary-icon::before {
+  top: 9px;
+  left: 0;
+  width: 20px;
+  height: 2px;
+}
+
+/* Vertical line (rotates/shrinks when open) */
+.faq-summary-icon::after {
+  top: 0;
+  left: 9px;
+  width: 2px;
+  height: 20px;
+}
+
+.faq-disclosure[open] .faq-summary-icon::after {
+  transform: scaleY(0);
+}
+
+.faq-content {
+  padding: 0 24px 24px 24px;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #555;
+  border-top: 1px solid rgba(0, 0, 0, 0.04);
+  padding-top: 16px;
 }

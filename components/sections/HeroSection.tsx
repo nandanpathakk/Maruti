@@ -15,9 +15,9 @@ export function HeroSection() {
           </span>
         </div>
         <h1 className="hero-h1">Precision Polymer<br />Filtration <em>Engineered</em><br />for Your Plant</h1>
-        <p className="hero-tagline">SS 304 Candle Filters &middot; Spin Pack Filters &middot; Gaskets &middot; Wire Mesh</p>
+        <p className="hero-tagline">SS 304 Polymer Candle Filters &middot; Spin Pack Filters &middot; Gaskets &middot; Wire Mesh Extruder Screens</p>
         <p className="hero-desc">
-          Custom-built polymer candle filters, spin pack components, and sealing solutions for CP, POY, FDY, DTY, and PSF spinning lines. Zero bypass. Zero contamination. Built to your exact specifications.
+          As leading <strong>polymer candle filter manufacturers</strong> and a trusted <strong>ss candle filter supplier in Gujarat</strong>, we engineer high-precision <strong>industrial melt filter elements</strong> and <strong>spin pack filter wire mesh</strong> for CP, POY, FDY, DTY, and PSF spinning lines. Built to your exact specifications with zero bypass.
         </p>
         <div className="hero-actions">
           <a href="#contact" className="btn-primary">
